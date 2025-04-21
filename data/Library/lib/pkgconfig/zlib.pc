@@ -1,0 +1,13 @@
+prefix=D:/datascienceproject/data/Library
+exec_prefix=D:/datascienceproject/data/Library
+libdir=D:/datascienceproject/data/Library/lib
+sharedlibdir=D:/datascienceproject/data/Library/lib
+includedir=D:/datascienceproject/data/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
